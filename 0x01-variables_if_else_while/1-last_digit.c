@@ -1,11 +1,10 @@
-#include <stdlib.h>
 #include <time.h>
 #include <stdlib.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
-* main = main block
+* main -  main block
 * Description: Get a random number and check its last digit and compare it wit 5
 * Return: 0
 */
@@ -13,10 +12,10 @@ int main(void)
 {
 	int n;
 
+	int m;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	int m;
 	m = n % 10;
 	if (m > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, m);
