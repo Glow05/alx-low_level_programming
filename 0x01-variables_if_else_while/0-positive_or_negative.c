@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more header goes here */
+
+/* betty style doc for function main goes there */
 /**
- * main -main block
+ * main - main block
  * Description: To get a random number and print the number
  * and if it positive, negative, or zero
- * Retturn: 0
+ * Retturn: Always 0 (success)
  */
 int main(void)
 {
