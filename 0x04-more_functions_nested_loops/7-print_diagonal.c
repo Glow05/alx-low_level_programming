@@ -5,6 +5,7 @@
  * @n: The number of times to print diagnol lines
  * Return: empty
  */
+
 void print_diagonal(int n);
 {
 	int x, y;
